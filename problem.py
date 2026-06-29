@@ -20,3 +20,10 @@ arr=nums1+nums2
 median=np.median(arr)
 print(median)
 
+# Given an integer x, return true if x is a palindrome, and false otherwise.
+
+x=(input("Enter a number to check palindrome or not "))
+if str(x)==str(x[::-1]):
+  print("True")
+else:
+  print("False")
