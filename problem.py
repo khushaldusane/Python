@@ -66,4 +66,19 @@ for i in range(1,n+1):
   d[i]=i*i
 print(d)
 
+# Write a Python function that takes a list of strings as input and returns a new list 
+# containing only the strings that have a length greater than a given value.
+
+l1=[]
+l2=[]
+length=4
+n=int(input("How many strings you want to enter in list ?"))
+for i in range(n):
+  str=input(f"Enter the strings to put in lists {i+1} :")
+  l1.append(str)
+for j in l1:
+  if len(j)>length:
+    l2.append(j)
+print(l2)
+
 
