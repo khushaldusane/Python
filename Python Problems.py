@@ -131,7 +131,22 @@ print(find_missing_number(list_))
 list_=[1,5,4,7,2,4,3,2,6,0]
 
 
+# Write a function called common_elements that takes two lists as input and returns a new list containing 
+# the common elements between the two input lists
 
+
+def common_elements(l1,l2):
+  common_ele=[]
+  for i in l1:
+    for j in l2:
+      if i==j:
+        common_ele.append(i)
+  return(common_ele)
+
+l1=[1,2,3,4,8]
+l2=[3,5,6,8]  
+common_ele_list=common_elements(l1,l2)
+print(common_ele_list)
 
 
 
