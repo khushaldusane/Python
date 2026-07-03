@@ -204,3 +204,15 @@ string=["Hello","How","are","you"]
 print(string_length(string))
 
 
+# Write a Python function that takes a list of integers as input and 
+# returns a new list containing only the odd numbers from the input list.
+
+def odd_numbers(num):
+  odd_nums=[]
+  for i in num:
+    if i%2>0:
+      odd_nums.append(i)
+  return odd_nums
+
+num=[1,5,4,7,6,2,45,95,74]
+print(odd_numbers(num))
