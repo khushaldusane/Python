@@ -285,3 +285,15 @@ def triangle_area():
   return Area
 
 print(triangle_area())
+
+
+# Write python Program to Check Leap Year
+
+def leap_year(year):
+  if year%4==0 and year%100!=0:
+    return "It is leap year"
+  else:
+    return "It is not a leap year"
+
+year=int(input("Enter the year to check if it is leap year or not : "))
+print(leap_year(year))
